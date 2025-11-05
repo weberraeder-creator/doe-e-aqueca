@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doe e Aqueça - ONG de Doações em Petrópolis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+   <img src="../../Downloads/Captura de tela_29-10-2025_17218_web.whatsapp.com.jpeg" width="200">
+    <h1>Doe e Aqueça</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#agendar">Agende sua Doação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transforme roupas em calor humano ❤️</h2>
+    <p>Reciclamos, recolhemos e distribuímos roupas para casas de repouso em Petrópolis.</p>
+    <a href="#agendar" class="botao">Agendar Doação</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>Somos a ONG <strong>Doe e Aqueça</strong>, um projeto social de Petrópolis dedicado a dar nova vida às roupas e aquecer corações. Trabalhamos com reciclagem, coleta e distribuição de roupas para idosos em casas de repouso.</p>
+  </section>
+
+  <section id="como-funciona">
+    <h2>Como Funciona</h2>
+    <div class="passos">
+      <div class="passo">
+        <h3>1. Você doa</h3>
+        <p>Cadastre sua doação no site e agende a coleta.</p>
+      </div>
+      <div class="passo">
+        <h3>2. Nós recolhemos</h3>
+        <p>Nossa equipe vai até você em Petrópolis para buscar as roupas.</p>
+      </div>
+      <div class="passo">
+        <h3>3. Reciclamos e entregamos</h3>
+        <p>As roupas são selecionadas, higienizadas e entregues a casas de repouso.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="agendar">
+    <h2>Agende sua Doação Digitalmente</h2>
+    <p>Use o formulário abaixo para agendar a coleta das suas roupas.</p>
+    <form id="formDoacao">
+      <input type="text" id="nome" placeholder="Seu nome completo" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <input type="text" id="endereco" placeholder="Endereço para coleta" required>
+      <input type="date" id="data" required>
+      <textarea id="descricao" placeholder="Descrição das roupas (ex: 3 casacos, 2 calças...)" required></textarea>
+      <button type="submit" class="botao">Agendar Coleta</button>
+    </form>
+    <p id="mensagem"></p>
+  </section>
+
+  <footer id="contato">
+    <h3>Contato</h3>
+    <p>Email: <a href="mailto:contato@doeeaqueça.org">contato@doeeaqueça.org</a></p>
+    <p>📍 Petrópolis - RJ</p>
+    <p>&copy; 2025 Doe e Aqueça</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
